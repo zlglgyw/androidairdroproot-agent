@@ -1,0 +1,15 @@
+# Template konfigurasi untuk ps.sh.
+# Salin file ini ke config.sh di folder yang sama, lalu isi nilai aslinya.
+# JANGAN pernah menulis nilai asli di file ini (file ini masuk repo).
+# Variabel environment dengan nama yang sama juga bisa dipakai sebagai
+# pengganti config.sh.
+
+# URL dasar phone_server (IP Tailscale HP + port).
+PHONE_BASE="http://IP-TAILSCALE-HP:8765"
+
+# Token yang sama dengan ~/phone_config.json di HP (header X-Token).
+PHONE_TOKEN="TOKEN-ANDA-DI-SINI"
+
+# Proxy HTTP opsional (mis. kalau mesin agen butuh proxy untuk mencapai
+# jaringan Tailscale). Kosongkan kalau tidak perlu.
+PHONE_PROXY=""

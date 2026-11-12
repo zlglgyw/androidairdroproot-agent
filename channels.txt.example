@@ -1,0 +1,7 @@
+# Daftar channel Telegram publik yang dipantau monitor.sh.
+# Satu nama channel per baris, TANPA @ dan TANPA t.me/.
+# Baris yang diawali # dan baris kosong diabaikan.
+#
+# Contoh format (hapus tanda # dan ganti dengan channel Anda):
+# NamaChannelSatu
+# NamaChannelDua

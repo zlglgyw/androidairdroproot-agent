@@ -1,0 +1,6 @@
+config.sh
+config
+channels.txt
+state/
+screenshots/
+*.log
